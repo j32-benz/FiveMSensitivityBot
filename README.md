@@ -28,15 +28,7 @@ To build the bot, run the following command in the project directory:
 dotnet build
 ```
 
-This compiles the project and prepares it for execution.
-
-### Run the Bot
-
-After building, run the bot with:
-
-```bash
-dotnet run
-```
+This compiles the project to an executable.
 
 ## Commands
 
