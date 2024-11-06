@@ -26,7 +26,10 @@ public class FiveMSensitivityBot
 
     public FiveMSensitivityBot()
     {
-        _client = new DiscordSocketClient();
+        _client = new DiscordSocketClient(new DiscordSocketConfig
+        {
+            GatewayIntents = GatewayIntents.Guilds | GatewayIntents.GuildMessages
+        });
         _client.Log += LogAsync;
         _client.Ready += ReadyAsync;
         _client.SlashCommandExecuted += SlashCommandHandler;
