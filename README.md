@@ -12,9 +12,10 @@ FiveMSensitivityBot is a Discord bot designed to help players calculate their "P
 - Counter-Strike
 - Valorant
 - Overwatch
-- BattleBit
 - Battlefield
 - Fortnite
+- Call of Duty: Warzone
+- The Finals
 
 ## Setup
 
@@ -67,13 +68,3 @@ This compiles the project to an executable.
 - **/cm360**
   - **Usage**: `/cm360 cm360:<CM360 value> dpi:<DPI>`
   - **Description**: Directly computes the Profile_MouseOnFootScale from CM360 and DPI.
-
-## Formulae
-
-- **To `Profile_MouseOnFootScale`**:  
-  `Scale = (Constant / (DPI * cm/360)) - 60.25`
-
-- **To `cm/360`**:  
-  `cm/360 = Constant / (DPI * (Scale + 60.25))`
-
-*Constant*: `1678106.125`
