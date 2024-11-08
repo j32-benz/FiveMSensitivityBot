@@ -14,11 +14,12 @@ public class FiveMSensitivityBot
     private static readonly Dictionary<string, double> Games = new()
     {
         { "apex legends", 41563.0 },
+        { "call of duty: warzone", 138545.0}, 
         { "counter-strike", 41563.0 },
         { "valorant", 13062.86 },
         { "overwatch", 138545.0 },
-        { "battlebit", 1828800.0 },
         { "battlefield", 61381.89 },
+        { "the finals", 914400.00},
         { "fortnite", 164608.46 },
     };
 
